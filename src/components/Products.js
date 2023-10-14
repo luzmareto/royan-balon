@@ -8,7 +8,7 @@ const Products = () => {
           our <span>products</span>
         </h1>
 
-        {/* <div className="box-container">
+        <div className="box-container">
           {product.map((item, index) => (
             <div className="box" key={index * Math.random()}>
               <div className="icons">
@@ -34,7 +34,7 @@ const Products = () => {
               </div>
             </div>
           ))}
-        </div> */}
+        </div>
       </section>
     </>
   );
