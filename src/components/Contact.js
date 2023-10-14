@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <section class="contact" id="contact">
         <h1 class="heading">
-          <span>contact</span> us
+          <span>Temukan</span> kami
         </h1>
         <div class="row">
           <iframe
@@ -16,7 +16,7 @@ const Contact = () => {
           ></iframe>
 
           <form action="">
-            <h3>get in touch</h3>
+            <h3>Contact Us</h3>
             <div class="inputBox">
               <span class="fas fa-user"></span>
               <input type="text" placeholder="name" />
