@@ -16,7 +16,7 @@ const About = () => {
           <div className="content">
             <h3>what makes our food special?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lore ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae
               ratione a officiis id temporibus autem? Quod nemo facilis
               cupiditate. Ex, vel?
