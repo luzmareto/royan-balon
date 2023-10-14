@@ -44,11 +44,11 @@ const Navbar = () => {
             id="search-btn"
             onClick={searchHandler}
           ></div> */}
-          <div
+          {/* <div
             className="fas fa-shopping-cart"
             id="cart-btn"
             onClick={cartHandler}
-          ></div>
+          ></div> */}
           <div
             className="fas fa-bars"
             id="menu-btn"
