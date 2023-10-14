@@ -6,10 +6,10 @@ const Home = () => {
       <section className="home" id="home">
         <div className="content">
           <h3>
-            fresh <span>food in the </span>morning
+            selamat <span>datang di </span>royan balon
           </h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
+            Lorem ipsumur, dolor sit amet consectetur adipisicing elit. Placeat
             labore, sint cupiditate distinctio tempora reiciendis.
           </p>
           <a href="#" className="btn">
