@@ -1,6 +1,20 @@
 import React from "react";
 
 const Contact = () => {
+  const sendWhatsApp = () => {
+    // Buka tab baru di browser pengguna.
+    const newTab = window.open("https://wa.me/62895616890077?text=halo%20royan%20balon.%20saya%20mau%20tahu%20info%20lebih%20lanjut", "_blank");
+
+    // Tunggu hingga tab baru terbuka.
+    newTab.onload = () => {
+      // Menulis pesan di aplikasi WhatsApp.
+      const input = newTab.querySelector("input[name=text]");
+      input.value = "halo royan balon. saya mau tahu info lebih lanjut";
+      input.focus();
+      input.select();
+    };
+  };
+
   return (
     <>
       <section class="contact" id="contact">
@@ -29,7 +43,7 @@ const Contact = () => {
               <span class="fas fa-phone"></span>
               <input type="number" placeholder="number" />
             </div>
-            <input type="submit" value="contact now" class="btn" />
+            <input type="submit" value="contact now" class="btn" onClick={sendWhatsApp} />
           </form>
         </div>
       </section>
