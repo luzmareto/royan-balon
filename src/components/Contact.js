@@ -15,6 +15,10 @@ const Contact = () => {
     };
   };
 
+  
+
+
+  
   return (
     <>
       <section class="contact" id="contact">
@@ -31,17 +35,25 @@ const Contact = () => {
 
           <form action="">
             <h3>Contact Us</h3>
-            <div class="inputBox">
+            <div className="inputBox">
               <span class="fas fa-user"></span>
-              <input type="text" placeholder="name" />
+              <input type="text" value="royanbalon.com" />
             </div>
-            <div class="inputBox">
+            <div className="inputBox">
               <span class="fas fa-envelope"></span>
-              <input type="email" placeholder="email" />
+              <input type="text" value="email" />
             </div>
-            <div class="inputBox">
+            <div className="inputBox">
               <span class="fas fa-phone"></span>
-              <input type="number" placeholder="number" />
+              <input type="text" value="+62 895-6168-90077" />
+            </div>
+            <div className="inputBox">
+              <span class="fab fa-tiktok"></span>
+              <input type="text" value="@royan.balon" />
+            </div>
+            <div className="inputBox">
+              <span class="fab fa-facebook"></span>
+              <input type="text" value="royanballon" />
             </div>
             <input type="submit" value="contact now" class="btn" onClick={sendWhatsApp} />
           </form>
