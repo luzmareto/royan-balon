@@ -1,6 +1,16 @@
 import React from "react";
 
 const Footer = () => {
+  const openTikTok = () => {
+    // Buka tab baru di browser pengguna.
+    const newTab = window.open("https://www.tiktok.com/@royan.balon", "_blank");
+
+    // Tunggu hingga tab baru terbuka.
+    newTab.onload = () => {
+      // Tab baru terbuka, tidak perlu menulis pesan di aplikasi WhatsApp, hanya membuka TikTok.
+    };
+  };
+  
   return (
     <>
       <section class="footer">
@@ -8,6 +18,7 @@ const Footer = () => {
           <a href="#" class="fab fa-facebook-f"></a>
           <a href="#" class="fab fa-whatsapp"></a>
           <a href="#" class="fab fa-instagram"></a>
+          <a href="#" onClick={openTikTok} className="fab fa-tiktok"></a>
           {/* <a href="#" class="fab fa-linkedin"></a> */}
           {/* <a href="#" class="fab fa-pinterest"></a> */}
         </div>
