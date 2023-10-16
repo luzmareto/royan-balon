@@ -425,7 +425,7 @@ section {
   margin-top: 2rem;
   margin-bottom: 2rem;
   background: #13131a;
-  border: 0.2rem solid #ffc107;
+  /* border: 0.2rem solid #ffc107; */
 }
 
 .contact .row form .inputBox span {
