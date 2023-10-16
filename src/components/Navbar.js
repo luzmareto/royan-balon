@@ -35,8 +35,8 @@ const Navbar = () => {
           <a href="#menu">menu</a>
           <a href="#products">products</a>
           <a href="#review">review</a>
-          <a href="#contact">contact</a>
           <a href="#blogs">blogs</a>
+          <a href="#contact">contact</a>
         </nav>
         <div className="icons">
           {/* <div
