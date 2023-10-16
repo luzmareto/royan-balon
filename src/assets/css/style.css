@@ -405,7 +405,9 @@ section {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
+  height: 500px;
 }
+
 
 .contact .row form {
   flex: 1 1 45rem;
@@ -610,4 +612,20 @@ section {
   html {
     font-size: 50%;
   }
+}
+
+
+.contact .row form .inputBox input[type="submit"] {
+  background-color: #ffc107; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  margin-right: 10  0px; /* Menggeser tombol ke kiri */
+}
+
+.contact .row form .inputBox input[type="submit"]:hover {
+  background-color: #ff9800; /* Warna latar belakang tombol saat hover */
 }

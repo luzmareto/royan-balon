@@ -12,9 +12,9 @@ const Home = () => {
             Lorem ipsumur, dolor sit amet consectetur adipisicing elit. Placeat
             labore, sint cupiditate distinctio tempora reiciendis.
           </p>
-          <a href="#" className="btn">
-            get yours now
-          </a>
+          <button className="btn">
+          get yours now
+          </button>
         </div>
       </section>
     </>

@@ -8,14 +8,28 @@ const Footer = () => {
     newTab.onload = () => {
     };
   };
+
+  const openFacebok = () => {
+    const newTab = window.open("https://www.facebook.com/profile.php?id=100077961693686", "_blank");
+
+    newTab.onload = () => {
+    };
+  };
+
+  const openInstagram = () => {
+    const newTab = window.open("https://www.instagram.com/royanballon/", "_blank");
+
+    newTab.onload = () => {
+    };
+  };
   
   return (
     <>
       <section class="footer">
         <div class="share">
-          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" onClick={openFacebok} className="fab fa-facebook-f"></a>
           <a href="#" class="fab fa-whatsapp"></a>
-          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" onClick={openInstagram}className="fab fa-instagram"></a>
           <a href="#" onClick={openTikTok} className="fab fa-tiktok"></a>
           {/* <a href="#" class="fab fa-linkedin"></a> */}
           {/* <a href="#" class="fab fa-pinterest"></a> */}

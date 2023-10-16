@@ -35,26 +35,21 @@ const Contact = () => {
 
           <form action="">
             <h3>Contact Us</h3>
-            <div className="inputBox">
-              <span class="fas fa-user"></span>
-              <input type="text" value="royanbalon.com" />
-            </div>
+         
             <div className="inputBox">
               <span class="fas fa-envelope"></span>
               <input type="text" value="email" />
-            </div>
-            <div className="inputBox">
-              <span class="fas fa-phone"></span>
+              <span class="fab fa-whatsapp"></span>
               <input type="text" value="+62 895-6168-90077" />
             </div>
+      
             <div className="inputBox">
               <span class="fab fa-tiktok"></span>
               <input type="text" value="@royan.balon" />
+              <span class="fab fa-instagram"></span>
+              <input type="text" value="@royan.balon" />
             </div>
-            <div className="inputBox">
-              <span class="fab fa-facebook"></span>
-              <input type="text" value="royanballon" />
-            </div>
+     
             <input type="submit" value="contact now" class="btn" onClick={sendWhatsApp} />
           </form>
         </div>
