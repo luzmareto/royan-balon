@@ -24,7 +24,7 @@ const Blog = () => {
                   dicta.
                 </p>
                 <a href="#" class="btn">
-                  read more
+                  {/* read more */}
                 </a>
               </div>
             </div>
