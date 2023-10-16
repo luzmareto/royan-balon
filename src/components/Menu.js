@@ -5,7 +5,7 @@ const Menu = () => {
     <>
       <section className="menu" id="menu">
         <h1 className="heading">
-          our <span>menu</span>
+          our <span>event</span>
         </h1>
 
         <div className="box-container">
@@ -13,12 +13,12 @@ const Menu = () => {
             <div className="box" key={index * Math.random()}>
               <img src={item.img} alt="" />
               <h3>tasty and healty</h3>
-              <div className="price">
+              {/* <div className="price">
                 $15.99 <span>20.99</span>
-              </div>
-              <a href="#" className="btn">
+              </div> */}
+              {/* <a href="#" className="btn">
                 add to cart
-              </a>
+              </a> */}
             </div>
           ))}
         </div>

@@ -39,16 +39,16 @@ const Navbar = () => {
           <a href="#blogs">blogs</a>
         </nav>
         <div className="icons">
-          <div
+          {/* <div
             className="fas fa-search"
             id="search-btn"
             onClick={searchHandler}
-          ></div>
-          <div
+          ></div> */}
+          {/* <div
             className="fas fa-shopping-cart"
             id="cart-btn"
             onClick={cartHandler}
-          ></div>
+          ></div> */}
           <div
             className="fas fa-bars"
             id="menu-btn"

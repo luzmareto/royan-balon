@@ -1,22 +1,36 @@
 import React from "react";
 
 const Contact = () => {
+  const sendWhatsApp = () => {
+    // Buka tab baru di browser pengguna.
+    const newTab = window.open("https://wa.me/62895616890077?text=halo%20royan%20balon.%20saya%20mau%20tahu%20info%20lebih%20lanjut", "_blank");
+
+    // Tunggu hingga tab baru terbuka.
+    newTab.onload = () => {
+      // Menulis pesan di aplikasi WhatsApp.
+      const input = newTab.querySelector("input[name=text]");
+      input.value = "halo royan balon. saya mau tahu info lebih lanjut";
+      input.focus();
+      input.select();
+    };
+  };
+
   return (
     <>
       <section class="contact" id="contact">
         <h1 class="heading">
-          <span>contact</span> us
+          <span>Temukan</span> kami
         </h1>
         <div class="row">
           <iframe
             class="map"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11993.267641772954!2d-72.8480109!3d41.2802068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36c6fa619c4f5603!2sMcDonald&#39;s!5e0!3m2!1sen!2s!4v1633364807635!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.384888725656!2d106.89149117418445!3d-6.3441754620682875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ecdbf5692ddd%3A0xa6a78ea6cadf97dd!2sWarung%20Bu%20De%20Sum!5e0!3m2!1sen!2sus!4v1697293569495!5m2!1sen!2sus"
             allowfullscreen=""
             loading="lazy"
           ></iframe>
 
           <form action="">
-            <h3>get in touch</h3>
+            <h3>Contact Us</h3>
             <div class="inputBox">
               <span class="fas fa-user"></span>
               <input type="text" placeholder="name" />
@@ -29,7 +43,7 @@ const Contact = () => {
               <span class="fas fa-phone"></span>
               <input type="number" placeholder="number" />
             </div>
-            <input type="submit" value="contact now" class="btn" />
+            <input type="submit" value="contact now" class="btn" onClick={sendWhatsApp} />
           </form>
         </div>
       </section>
