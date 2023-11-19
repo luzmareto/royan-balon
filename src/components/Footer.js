@@ -9,6 +9,21 @@ const Footer = () => {
     };
   };
 
+  const sendWhatsApp = () => {
+    // Buka tab baru di browser pengguna.
+    const newTab = window.open("https://wa.me/62895616890077?text=halo%20royan%20balon.%20saya%20mau%20tahu%20info%20lebih%20lanjut", "_blank");
+
+    // Tunggu hingga tab baru terbuka.
+    newTab.onload = () => {
+      // Menulis pesan di aplikasi WhatsApp.
+      const input = newTab.querySelector("input[name=text]");
+      input.value = "halo royan balon. saya mau tahu info lebih lanjut";
+      input.focus();
+      input.select();
+    };
+  };
+
+
   const openFacebok = () => {
     const newTab = window.open("https://www.facebook.com/profile.php?id=100077961693686", "_blank");
 
@@ -28,7 +43,11 @@ const Footer = () => {
       <section class="footer">
         <div class="share">
           <a href="#" onClick={openFacebok} className="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-whatsapp"></a>
+          {/* <a href="#" class="fab fa-whatsapp"></a> */}
+
+          <a href="#" onClick={sendWhatsApp} className="fab fa-whatsapp"></a>
+
+
           <a href="#" onClick={openInstagram}className="fab fa-instagram"></a>
           <a href="#" onClick={openTikTok} className="fab fa-tiktok"></a>
           {/* <a href="#" class="fab fa-linkedin"></a> */}
