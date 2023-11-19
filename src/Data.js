@@ -9,7 +9,7 @@ import cartImage2 from "./assets/images/cart-item-2.png";
 import cartImage3 from "./assets/images/cart-item-3.png";
 import cartImage4 from "./assets/images/cart-item-4.png";
 import productImage1 from "./assets/images/product-1.png";
-import productImage2 from "./assets/images/product-3.png";
+import productImage2 from "./assets/images/product-2.png";
 import productImage3 from "./assets/images/product-3.png";
 import reviewImage1 from "./assets/images/pic-1.png";
 import reviewImage2 from "./assets/images/pic-1.png";

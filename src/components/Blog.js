@@ -5,7 +5,7 @@ const Blog = () => {
     <>
       <section class="blogs" id="blogs">
         <h1 class="heading">
-          our <span>blogs</span>
+          good <span>event</span>
         </h1>
 
         <div class="box-container">
