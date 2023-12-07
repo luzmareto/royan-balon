@@ -277,14 +277,14 @@ section {
 }
 
 .menu .box-container .box {
-  padding: 5rem;
+  padding: 2rem;
   text-align: center;
   border: 0.2rem solid #ffc107;
 }
 
 .menu .box-container .box img {
-  height: 10rem;
-  border-radius: 50%;
+  height: 30rem;
+  /* border-radius: 50%; */
 }
 
 .menu .box-container .box h3 {
