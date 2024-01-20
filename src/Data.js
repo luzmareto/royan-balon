@@ -4,10 +4,6 @@ import menuImage3 from "./assets/images/menu-3.png";
 import menuImage4 from "./assets/images/menu-4.png";
 import menuImage5 from "./assets/images/menu-5.png";
 import menuImage6 from "./assets/images/menu-6.png";
-import cartImage1 from "./assets/images/cart-item-1.png";
-import cartImage2 from "./assets/images/cart-item-2.png";
-import cartImage3 from "./assets/images/cart-item-3.png";
-import cartImage4 from "./assets/images/cart-item-4.png";
 import productImage1 from "./assets/images/product-1.png";
 import productImage2 from "./assets/images/product-2.png";
 import productImage3 from "./assets/images/product-3.png";
@@ -39,18 +35,8 @@ const menu = [
 ];
 
 const cart = [
-  {
-    img: cartImage1,
-  },
-  {
-    img: cartImage2,
-  },
-  {
-    img: cartImage3,
-  },
-  {
-    img: cartImage4,
-  },
+
+
 ];
 
 const product = [
