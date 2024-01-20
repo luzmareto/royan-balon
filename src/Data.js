@@ -36,8 +36,7 @@ const menu = [
 
 const cart = [
 
-
-];
+  ];
 
 const product = [
   {
@@ -64,12 +63,26 @@ const review = [
 const blog = [
   {
     img: blogImage1,
+    quote: "Quote Gambar Pertama",
+    author: "uway",
+    date: "1st May, 2023",
+    description: "Deskripsi untuk gambar pertama.",
   },
   {
     img: blogImage2,
+    quote: "Quote Gambar Kedua",
+    author: "Aucok",
+    date: "2st May, 2021",
+    description: "Deskripsi untuk gambar kedua.",
+
   },
   {
     img: blogImage3,
+    quote: "Quote Gambar Ketiga",
+    author: "Admin 3",
+    date: "3st May, 2021",
+    description: "Deskripsi untuk gambar ketiga.",
+
   },
 ];
 export { menu, cart, product, review, blog };
